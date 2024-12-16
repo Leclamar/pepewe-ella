@@ -3,11 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/output.css">
     <title>Product Detail</title>
 </head>
 <body class="font-satoshi px-12">
-    <?php include '../layout/header.php';?>
+    <header class="grid grid-flow-col justify-between border-b items-center py-4">
+        <div class="w-max">
+            <h1 class="font-bold font-satoshi text-3xl">SHOP<span class="font-bold text-teal-400">.CO</span></h1>
+        </div>
+
+        <nav class="w-max">
+            <ul class="flex">
+                <li><a href="" class="px-10 font-medium hover:text-teal-500">Shop</a></li>
+                <li><a href="" class="px-10 font-medium hover:text-teal-500">Top Sales</a></li>
+                <li><a href="" class="px-10 font-medium hover:text-teal-500">Offer</a></li>
+                <li><a href="seller.html" class="px-10 font-medium hover:text-teal-500">Seller</a></li>
+            </ul>
+        </nav>
+
+        <div class="w-max">
+            <h3 class="px-10 font-semibold hover:text-teal-500 cursor-pointer">Login</h3>
+        </div>
+    </header>
 
     <section class="mt-2">
         <div>
@@ -19,7 +37,7 @@
         <main class="my-4">
             <article class="flex">
                 <div class="w-40vw h-70vh object-contain bg-slate-100 rounded-md">
-                    <img src="../../img/Abstract Painting by Suzanne Vaughan, Acrylic on Canvas, 40 x 60 in - Large, Abstract Original Artwork For Sale on Saatchi Art_.jpeg" class="w-full h-full rounded-lg object-contain">
+                    <img src="img/Abstract Painting by Suzanne Vaughan, Acrylic on Canvas, 40 x 60 in - Large, Abstract Original Artwork For Sale on Saatchi Art_.jpeg" class="w-full h-full rounded-lg object-contain">
                 </div>
                 
                 <div class="box-border grid content-between items-start px-6 w-60vw justify-start">
@@ -55,7 +73,7 @@
 
                 <section class="mb-10">
                     <div id="rating-review" class="hidden">
-                        <h1 class="font-bold text-lg my-3">All Reviews <span>(1)</span></h1>
+                        <h1 class="font-bold text-lg my-3">All Reviews <span>(81)</span></h1>
 
                         <div id="user-review" class="grid grid-flow-col mb-12">
                             <div class="w-profile h-profile rounded-full bg-slate-500">
@@ -89,18 +107,51 @@
                     </div>
                 </section>
             </article>
-
-            <article class="border-t">
-                <h1 class="text-3xl font-bold text-teal-500 text-center mt-10 mb-12">You Might Also Like</h1>
-
-                <div class="grid grid-flow-col justify-items-center">
-                    <?php include '../layout/product-container.php'; ?>
-                    <?php include '../layout/product-container.php'; ?>
-                    <?php include '../layout/product-container.php'; ?>
-                    <?php include '../layout/product-container.php'; ?>
-                </div>
-            </article>
         </main>
+    </section>
+
+    <section class="py-16">
+        <div class="container mx-auto px-6">
+        <h2 class="font-satoshi text-4xl text-teal-500 font-bols font-bold text-center">TOP SALES</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-10">
+            <!-- Card Example -->
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+            <img src="https://via.placeholder.com/200" alt="Product Image" class="w-full">
+            <div class="p-4">
+                <h3 class="text-lg font-semibold text-gray-800">Product Name</h3>
+                <p class="text-sm text-gray-500 mt-2">Price</p>
+                <p class="text-red-500 font-semibold mt-1">20% Off</p>
+            </div>
+            </div>
+
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+            <img src="https://via.placeholder.com/200" alt="Product Image" class="w-full">
+            <div class="p-4">
+                <h3 class="text-lg font-semibold text-gray-800">Product Name</h3>
+                <p class="text-sm text-gray-500 mt-2">Price</p>
+                <p class="text-red-500 font-semibold mt-1">20% Off</p>
+            </div>
+            </div>
+
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+            <img src="https://via.placeholder.com/200" alt="Product Image" class="w-full">
+            <div class="p-4">
+                <h3 class="text-lg font-semibold text-gray-800">Product Name</h3>
+                <p class="text-sm text-gray-500 mt-2">Price</p>
+                <p class="text-red-500 font-semibold mt-1">20% Off</p>
+            </div>
+            </div>
+
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+            <img src="https://via.placeholder.com/200" alt="Product Image" class="w-full">
+            <div class="p-4">
+                <h3 class="text-lg font-semibold text-gray-800">Product Name</h3>
+                <p class="text-sm text-gray-500 mt-2">Price</p>
+                <p class="text-red-500 font-semibold mt-1">20% Off</p>
+            </div>
+            </div>
+        </div>
+        </div>
     </section>
 
     <script>
