@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Profile</title>
     <link rel="stylesheet" href="css/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="font-satoshi">
     <header class="flex justify-between border-b py-3 px-10 bg-white sticky top-0">
-        <a href="user-profile.html" class="flex items-center cursor-pointer">
+        <a href="profile.php" class="flex items-center cursor-pointer">
             <div class="size-6">
-                <img src="img/icons8-back-100.png">
+                <img src="../../img/icons8-back-100.png">
             </div>
             <p class=" font-bold text-teal-400 ml-1">BACK</p>
         </a>
@@ -45,7 +46,7 @@
 
         <div class="justify-items-center mt-8">
             <div class="size-60 rounded-full content-center items-center mb-3">
-                <img class="h-full w-full" src="img/profpic.png">
+                <img class="h-full w-full" src="../../img/profpic.png">
             </div>
             <label class="font-bold text-2xl text-slate-700">Full Name</label>
         </div>
