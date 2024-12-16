@@ -8,24 +8,7 @@
     <title>Product Detail</title>
 </head>
 <body class="font-satoshi px-12">
-    <header class="grid grid-flow-col justify-between border-b items-center py-4">
-        <div class="w-max">
-            <h1 class="font-bold font-satoshi text-3xl">SHOP<span class="font-bold text-teal-400">.CO</span></h1>
-        </div>
-
-        <nav class="w-max">
-            <ul class="flex">
-                <li><a href="" class="px-10 font-medium hover:text-teal-500">Shop</a></li>
-                <li><a href="" class="px-10 font-medium hover:text-teal-500">Top Sales</a></li>
-                <li><a href="" class="px-10 font-medium hover:text-teal-500">Offer</a></li>
-                <li><a href="seller.html" class="px-10 font-medium hover:text-teal-500">Seller</a></li>
-            </ul>
-        </nav>
-
-        <div class="w-max">
-            <h3 class="px-10 font-semibold hover:text-teal-500 cursor-pointer">Login</h3>
-        </div>
-    </header>
+    <?php include '../layout/header.php';?>
 
     <section class="mt-2">
         <div>
@@ -37,7 +20,7 @@
         <main class="my-4">
             <article class="flex">
                 <div class="w-40vw h-70vh object-contain bg-slate-100 rounded-md">
-                    <img src="img/Abstract Painting by Suzanne Vaughan, Acrylic on Canvas, 40 x 60 in - Large, Abstract Original Artwork For Sale on Saatchi Art_.jpeg" class="w-full h-full rounded-lg object-contain">
+                    <img src="../../img/Abstract Painting by Suzanne Vaughan, Acrylic on Canvas, 40 x 60 in - Large, Abstract Original Artwork For Sale on Saatchi Art_.jpeg" class="w-full h-full rounded-lg object-contain">
                 </div>
                 
                 <div class="box-border grid content-between items-start px-6 w-60vw justify-start">
