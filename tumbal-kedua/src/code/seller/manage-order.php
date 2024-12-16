@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manage Product</title>
-    <link rel="stylesheet" href="../../css/output.css">
+    <title>Manage Orders</title>
+    <link rel="stylesheet" href="css/output.css">
 </head>
 <body class="font-satoshi flex justify-start box-border">
     <nav class="min-w-20vw bg-slate-800 text-white h-screen h-max-screen py-3 px-6 box-border">
@@ -42,78 +42,56 @@
         <header class="grid grid-flow-col border-b-2 px-10 justify-end pb-3">
             <div class="grid grid-flow-col justify-start items-center mx-6">
                 <div class="size-7 rounded-full mx-2">
-                    <img src="../../img/profpic.png">
+                    <img src="img/profpic.png">
                 </div>
 
                 <p class="font-semibold text-sm">Ella</p>
             </div>
         </header>
-        <section class="px-10 grid">
-            <h1 class="font-extrabold text-teal-500 text-3xl my-8">Your Orders</h1>
 
+        <section class="px-10 grid">
+            <h1 class="font-extrabold text-teal-500 text-3xl my-8">Order List</h1>
             <div>
                 <table class="border w-full rounded-sm text-sm">
                     <thead>
                         <tr class="border">
-                            <th class="text-slate-400 border py-2">Account</th>
-                            <th class="text-slate-400 border py-2">Product</th>
-                            <th class="text-slate-400 border py-2">Delivered at</th>
-                            <th class="text-slate-400 border py-2">Quantity</th>
+                            <th class="text-slate-400 border py-2">ID</th>
+                            <th class="text-slate-400 border py-2">Username</th>
+                            <th class="text-slate-400 border py-2">Total Price</th>
                             <th class="text-slate-400 border py-2">Status</th>
+                            <th class="text-slate-400 border py-2">Details</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="border p-2">Ella</td>
-                            <td class="border p-2">Product 1</td>
-                            <td class="border p-2">1 Jan 2001</td>
                             <td class="border p-2">1</td>
-                            <td class="border p-2 text-gray-600 font-medium">
-                                <select>
-                                    <option>Package</option>
-                                    <option>Deliver</option>
-                                    <option>Cancel</option>
-                                </select>
-                            </td>
+                            <td class="border p-2">Agus</td>
+                            <td class="border p-2">$666</td>
+                            <td class="border p-2 text-green-500 font-medium"><div class="py-1 text-sm w-full h-full bg-green-100 text-center rounded-md">Delivered</div></td>
+                            <td class="border p-2 text-center hover:underline"><a href="order-details.php">Tap to check</a></td>
                         </tr>
                         <tr>
-                            <td class="border p-2">Ella</td>
-                            <td class="border p-2">Product 1</td>
-                            <td class="border p-2">1 Jan 2001</td>
-                            <td class="border p-2">1</td>
-                            <td class="border p-2 text-gray-600 font-medium">
-                                <select>
-                                    <option>Package</option>
-                                    <option>Deliver</option>
-                                    <option>Cancel</option>
-                                </select>
-                            </td>
+                            <td class="border p-2">2</td>
+                            <td class="border p-2">Agus</td>
+                            <td class="border p-2">$333</td>
+                            <td class="border p-2 text-green-500 font-medium"><div class="py-1 text-sm w-full h-full bg-green-100 text-center rounded-md">Delivered</div></td>
+                            <td class="border p-2 text-center hover:underline"><a href="order-details.php">Tap to check</a></td>
                         </tr>
+    
                         <tr>
-                            <td class="border p-2">Ella</td>
-                            <td class="border p-2">Product 1</td>
-                            <td class="border p-2">1 Jan 2001</td>
-                            <td class="border p-2">1</td>
-                            <td class="border p-2 text-gray-600 font-medium">
-                                <select>
-                                    <option>Package</option>
-                                    <option>Deliver</option>
-                                    <option>Cancel</option>
-                                </select>
-                            </td>
+                            <td class="border p-2">3</td>
+                            <td class="border p-2">Agus</td>
+                            <td class="border p-2">$999</td>
+                            <td class="border p-2 text-gray-600 font-medium"><div class="py-1 text-sm w-full h-full bg-gray-300 text-center rounded-md">In Delivery</div></td>
+                            <td class="border p-2 text-center hover:underline"><a href="order-details.php">Tap to check</a></td>
                         </tr>
+    
                         <tr>
-                            <td class="border p-2">Ella</td>
-                            <td class="border p-2">Product 1</td>
-                            <td class="border p-2">1 Jan 2001</td>
-                            <td class="border p-2">1</td>
-                            <td class="border p-2 text-gray-600 font-medium">
-                                <select>
-                                    <option>Package</option>
-                                    <option>Deliver</option>
-                                    <option>Cancel</option>
-                                </select>
-                            </td>
+                            <td class="border p-2">4</td>
+                            <td class="border p-2">Agus</td>
+                            <td class="border p-2">$666</td>
+                            <td class="border p-2 text-red-500 font-medium"><div class="py-1 text-sm w-full h-full bg-red-100 text-center rounded-md">Needs to be Shipped</div></td>
+                            <td class="border p-2 text-center hover:underline"><a href="order-details.php">Tap to check</a></td>
                         </tr>
                     </tbody>
                 </table>
