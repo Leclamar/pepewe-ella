@@ -31,29 +31,29 @@
                                 <div class="flex items-center space-x-6 lg:space-x-8">
                                     <div class="grid shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                                         <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
-                                            <img src="img/1.jpg" alt="" class="size-full object-cover opacity-90">
+                                            <img src="../../img/1.jpg" alt="" class="size-full object-cover opacity-90">
                                         </div>
                                         <div class="h-64 w-44 overflow-hidden rounded-lg">
-                                            <img src="img/2.jpg" alt="" class="size-full object-coveropacity-90">
-                                        </div>
-                                    </div>
-                                    <div class="grid shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                                        <div class="h-64 w-44 overflow-hidden rounded-lg">
-                                            <img src="img/3.jpg" alt="" class="size-full object-cover opacity-90">
-                                        </div>
-                                        <div class="h-64 w-44 overflow-hidden rounded-lg">
-                                            <img src="img/4.jpg" alt="" class="size-full object-cover opacity-90">
-                                        </div>
-                                        <div class="h-64 w-44 overflow-hidden rounded-lg">
-                                            <img src="img/5.jpg" alt="" class="size-full object-cover opacity-90">
+                                            <img src="../../img/2.jpg" alt="" class="size-full object-coveropacity-90">
                                         </div>
                                     </div>
                                     <div class="grid shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                                         <div class="h-64 w-44 overflow-hidden rounded-lg">
-                                            <img src="img/6.jpg" alt="" class="size-full object-cover opacity-90">
+                                            <img src="../../img/3.jpg" alt="" class="size-full object-cover opacity-90">
                                         </div>
                                         <div class="h-64 w-44 overflow-hidden rounded-lg">
-                                            <img src="img/7.jpg" alt="" class="size-full object-cover opacity-90">
+                                            <img src="../../img/4.jpg" alt="" class="size-full object-cover opacity-90">
+                                        </div>
+                                        <div class="h-64 w-44 overflow-hidden rounded-lg">
+                                            <img src="../../img/5.jpg" alt="" class="size-full object-cover opacity-90">
+                                        </div>
+                                    </div>
+                                    <div class="grid shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                                        <div class="h-64 w-44 overflow-hidden rounded-lg">
+                                            <img src="../../img/6.jpg" alt="" class="size-full object-cover opacity-90">
+                                        </div>
+                                        <div class="h-64 w-44 overflow-hidden rounded-lg">
+                                            <img src="../../img/7.jpg" alt="" class="size-full object-cover opacity-90">
                                         </div>
                                     </div>
                                 </div>
