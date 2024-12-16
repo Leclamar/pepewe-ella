@@ -9,7 +9,7 @@
 </head>
 <body class="font-satoshi">
     <header class="flex justify-between border-b py-3 px-10 bg-white sticky top-0">
-        <a href="manage-orders.php" class="flex items-center cursor-pointer">
+        <a href="manage-order.php" class="flex items-center cursor-pointer">
             <div class="size-6">
                 <img src="img/icons8-back-100.png">
             </div>
