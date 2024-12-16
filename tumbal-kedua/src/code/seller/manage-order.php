@@ -27,7 +27,7 @@
                 <div class="size-5 mr-2 ml-3">
                     <img src="../../img/manage-product-white.png">
                 </div>
-                <a class="px-3 font-thin" href="manage-product.html">Manage Products</a>
+                <a class="px-3 font-thin" href="manage-product.php">Manage Products</a>
             </li>
             <li class="py-3 mb-3 flex items-center w-full rounded-xl bg-teal-700 bg-opacity-50">
                 <div class="size-5 mr-2 ml-3">
