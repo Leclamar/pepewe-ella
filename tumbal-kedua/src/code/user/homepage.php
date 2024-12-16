@@ -10,7 +10,7 @@
 
 <body class="box-border overscroll-x-none w-full max-w-screen overflow-x-hidden mx-auto font-satoshi">
     <div class="px-12">
-    <?php include 'layout/header.php'; ?>
+    <?php include '../layout/header.php'; ?>
     </div>
     
     <!--Hero Sections-->
