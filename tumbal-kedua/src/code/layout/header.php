@@ -5,9 +5,9 @@
 
     <nav class="w-fit">
         <ul class="flex">
-            <li><a href="" class="px-5 font-medium hover:text-teal-500">Top Sales</a></li>
-            <li><a href="" class="px-5 font-medium hover:text-teal-500">Offer</a></li>
-            <li><a href="" class="px-5 font-medium hover:text-teal-500">Cart</a></li>
+            <li><a href="../user/top-sales.php" class="px-5 font-medium hover:text-teal-500">Top Sales</a></li>
+            <li><a href="../user/offer.php" class="px-5 font-medium hover:text-teal-500">Offer</a></li>
+            <li><a href="../user/cart.php" class="px-5 font-medium hover:text-teal-500">Cart</a></li>
             <li><a href="../seller/seller.php" class="px-5 font-medium hover:text-teal-500">Seller</a></li>
         </ul>
     </nav>
