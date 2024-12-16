@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manage Orders</title>
-    <link rel="stylesheet" href="css/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../../css/output.css">
 </head>
 <body class="font-satoshi flex justify-start box-border">
     <nav class="min-w-20vw bg-slate-800 text-white h-screen h-max-screen py-3 px-6 box-border">
@@ -42,7 +43,7 @@
         <header class="grid grid-flow-col border-b-2 px-10 justify-end pb-3">
             <div class="grid grid-flow-col justify-start items-center mx-6">
                 <div class="size-7 rounded-full mx-2">
-                    <img src="img/profpic.png">
+                    <img src="../../img/profpic.png">
                 </div>
 
                 <p class="font-semibold text-sm">Ella</p>
