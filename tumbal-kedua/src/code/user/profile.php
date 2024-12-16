@@ -8,24 +8,7 @@
   <link rel="stylesheet" href="css/output.css">
 </head>
 <body class="font-satoshi px-12">
-    <header class="grid grid-flow-col justify-between border-b items-center py-4 bg-white">
-        <div class="w-max">
-            <h1 class="font-bold font-satoshi text-3xl">SHOP<span class="font-bold text-teal-400">.CO</span></h1>
-        </div>
-
-        <nav class="w-max">
-            <ul class="flex">
-                <li><a href="" class="px-10 font-semibold hover:text-teal-500">Shop</a></li>
-                <li><a href="" class="px-10 font-semibold hover:text-teal-500">Top Sales</a></li>
-                <li><a href="" class="px-10 font-semibold hover:text-teal-500">Offer</a></li>
-                <li><a href="seller.html" class="px-10 font-semibold hover:text-teal-500">Seller</a></li>
-            </ul>
-        </nav>
-
-        <div class="w-max">
-            <h3 class="px-10 font-semibold hover:text-teal-500 cursor-pointer">Login</h3>
-        </div>
-    </header>
+    <?php include '../layout/header.php';?>
 
     <!-- Main Container -->
     <div class="container mx-auto p-6">
@@ -80,10 +63,7 @@
             <a href="#" class="text-blue-500 hover:underline">Change Password</a>
             </li>
             <li>
-            <a href="#" class="text-blue-500 hover:underline">Update Email Address</a>
-            </li>
-            <li>
-            <a href="#" class="text-blue-500 hover:underline">Manage Subscriptions</a>
+            <a href="order-status.php" class="text-blue-500 hover:underline">Order Status</a>
             </li>
             <li>
             <a href="#" class="text-red-500 hover:underline">Delete Account</a>
